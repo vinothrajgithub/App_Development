@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.navbar{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 15%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+  .right{
+    width: 50%;
+    border: 2px solid black ;
+    box-shadow: 0 0 10px black;
+    border-radius: 5px;
+  }
+  .card{
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+  }
+  .card-split{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+.card-row{
+
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    padding: 20px;
+
+}
+
+input{
+  padding: 10px;
+  margin:  10px 30px;
+  width: 100%;
+}
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.id{
+  width: 100%;
+}
+.login-card{
+
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px black;
+}
+.split{
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.login-row{
+  align-items: center;
+  justify-content: center;
+
+}
+
+.button{
+  padding: 7px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  
+  
+}
+
+#start{
+  display: flex; 
+}
+.main
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pie{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: rgb(19, 225, 133);
+}
+.sleep{
+  height: 200%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.c-sleep{
+  padding: 50px;
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px;
+  background-color:  rgb(19, 225, 133) ;
+}
+.card-s{
+  padding: 5%;
+  display: flex;
+}
